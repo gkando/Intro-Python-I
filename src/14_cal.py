@@ -22,3 +22,18 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+def main():
+    def parseArgs():
+      print(len(sys.argv))
+
+    parseArgs()
+    # month = datetime.now().month, year = datetime.now().year, *args
+
+    # print(args)
+    # c= calendar.TextCalendar(calendar.SUNDAY)
+    # str= c.formatmonth(year,month)
+    # print(str)
+
+if __name__== "__main__":
+    main()
